@@ -59,6 +59,7 @@ nav{
 main{
     margin-left: 300px;
     padding-top:15px ;
+    max-width: 1200px;
 }
 .portfolio{
    display: flex;
@@ -142,11 +143,10 @@ main{
 .card5 { grid-area: 2 / 2 / 3 / 3; }
 .card6 { grid-area: 2 / 3 / 3 / 4; }
 .paggination{
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(6,1fr);
-    margin:0px 485px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1200px;
 }
 .paggination div{
     height: 40px;
@@ -509,6 +509,7 @@ main{
 }
 footer{
     margin-left: 300px;
+    max-width: 1200px;
 }
 .part1{
     background-color:#616161 ;
